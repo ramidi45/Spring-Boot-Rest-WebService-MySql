@@ -3,7 +3,7 @@ Spring Boot RESTful Web Service
 Demo application for Restful Web Serivce based on Spring Boot.
 
 Application Deployed to AWS, To use the application can visit
-http://ec2-52-35-156-118.us-west-2.compute.amazonaws.com/Ascendum/
+http://ec2-52-35-156-118.us-west-2.compute.amazonaws.com/Ascendum/contact/
 
 ## How-to use this code
 
