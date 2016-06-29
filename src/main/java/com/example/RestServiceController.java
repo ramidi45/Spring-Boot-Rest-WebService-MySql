@@ -32,10 +32,13 @@ public class RestServiceController {
 	 
 	    // GET
 	    @RequestMapping(value="/{phoneNumber}",method = RequestMethod.GET)
-	    public String getContact(@PathVariable("phoneNumber") String phoneNumber) {
+	    public Contact getContact(@PathVariable("phoneNumber") String phoneNumber) {
 	        Contact contact=null;
 	           contact = repo.findOne(phoneNumber);
-	            return contact.toString();
-	        	}
+	           if(contact !=null)
+	            return contact;
+	           else
+	        	   return new Contact("","","");
+	    }
 	 
 }

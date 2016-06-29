@@ -49,10 +49,5 @@ public class Contact {
 		this.lastName = lastName;
 	}
 	
-	@Override
-	public String toString() {
-	    return "{" + "\"phoneNumber\" :\"" + phoneNumber + "\", \"firstName\" :\"" + firstName + "\"" + "\", \"lastName\" :\"" + lastName + "\"" + '}';
-	}
-
 
 }
