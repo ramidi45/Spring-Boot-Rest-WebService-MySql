@@ -4,6 +4,8 @@ Demo application for Restful Web Serivce based on Spring Boot.
 
 ## How-to use this code
 
+Use restful web service client like Postman to test this application
+
 To add a contact <br /> 
 Request: Method:POST, URI:http://localhost:8080/contact, Body:{ "firstName": "john","lastName": "doe","phoneNumber":"5132234233" }<br /> 
 Response: creation successful: 5132234233 (details will be saved into database)<br /> 
@@ -22,6 +24,6 @@ Response: { "firstName": "john","lastName": "doe","phoneNumber":"5132234233" } <
 
 ## Contact
 * e-mail: ramiditarunreddy@hotmail.com
-* Linkedin: [@LinkedIn](https://www.linkedin.com/in/tarun-reddy-ramidi-66a002104 "Tarun Reddy on LinkedIn")
+* Linkedin: [Tarun@LinkedIn](https://www.linkedin.com/in/tarun-reddy-ramidi-66a002104 "Tarun Reddy on LinkedIn")
 
 
