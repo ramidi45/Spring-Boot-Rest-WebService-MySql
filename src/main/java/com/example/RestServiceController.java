@@ -27,15 +27,15 @@ public class RestServiceController {
 	        } catch (Exception e) {
 	            return e.getMessage();
 	        }
-	        return "creation successful: " + String.valueOf(contact.getPhoneNumber());
+	        return "creation successful for phoneNumber: " + String.valueOf(contact.getPhoneNumber());
 	    }
 	 
 	    // GET
 	    @RequestMapping(value="/{phoneNumber}",method = RequestMethod.GET)
-	    public Contact getContact(@PathVariable("phoneNumber") String phoneNumber) {
+	    public String getContact(@PathVariable("phoneNumber") String phoneNumber) {
 	        Contact contact=null;
 	           contact = repo.findOne(phoneNumber);
-	            return contact;
+	            return contact.toString();
 	        	}
 	 
 }

@@ -4,8 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
 @Entity
 @Table(name="contact")
+@JsonSerialize
 public class Contact {
 
 	@Id
@@ -46,5 +49,10 @@ public class Contact {
 		this.lastName = lastName;
 	}
 	
+	@Override
+	public String toString() {
+	    return "{" + "\"phoneNumber\" :\"" + phoneNumber + "\", \"firstName\" :\"" + firstName + "\"" + "\", \"lastName\" :\"" + lastName + "\"" + '}';
+	}
+
 
 }
