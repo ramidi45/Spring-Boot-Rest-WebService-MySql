@@ -22,6 +22,6 @@ Response: { "firstName": "john","lastName": "doe","phoneNumber":"5132234233" } <
 
 ## Contact
 * e-mail: ramiditarunreddy@hotmail.com
-* Twitter: [@ImTarun45](https://twitter.com/ImTarun45 "ImTarun45 on twitter")
+* Linkedin: [@LinkedIn](https://www.linkedin.com/in/tarun-reddy-ramidi-66a002104 "Tarun Reddy on LinkedIn")
 
 
