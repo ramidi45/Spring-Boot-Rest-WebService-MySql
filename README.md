@@ -5,6 +5,15 @@ Demo application for Restful Web Serivce based on Spring Boot.
 Application Deployed to AWS, To use the application can visit
 http://ec2-52-35-156-118.us-west-2.compute.amazonaws.com/Ascendum/contact/5132234233
 
+To setup on local server:
+Deploy the war on java web server with port 8080 and create a mysql db with following details.
+
+spring.datasource.url = jdbc:mysql://localhost:3306/ascendum
+spring.datasource.username = root
+spring.datasource.password = root
+
+db table create query: CREATE TABLE `contact` ( `phone_number` bigint(20) NOT NULL, `first_name` varchar(255) DEFAULT NULL, `last_name` varchar(255) DEFAULT NULL)
+
 ## How-to use this code
 
 Use restful web service client like Postman to test this application
