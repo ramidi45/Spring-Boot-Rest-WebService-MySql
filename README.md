@@ -17,6 +17,8 @@ Response: { "firstName": "john","lastName": "doe","phoneNumber":"5132234233" } <
 
 ![Screenshot software](https://github.com/ramidi45/Spring-Boot-Rest-WebService-MySql/blob/master/get.PNG "rest webservice get")
 
+![Screenshot software](https://github.com/ramidi45/Spring-Boot-Rest-WebService-MySql/blob/master/testcases.PNG "unit testing webservice")
+
 
 ## Contact
 * e-mail: ramiditarunreddy@hotmail.com
