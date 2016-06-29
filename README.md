@@ -4,13 +4,13 @@ Demo application for Restful Web Serivce based on Spring Boot.
 
 ## How-to use this code
 
-#To add a contact
-Request: Method:POST, URI:http://localhost:8080/contact, Body:{ "firstName": "john","lastName": "doe","phoneNumber":"5132234233" }
-Response: creation successful: 5132234233 (details will be saved into database)
+To add a contact <br /> 
+Request: Method:POST, URI:http://localhost:8080/contact, Body:{ "firstName": "john","lastName": "doe","phoneNumber":"5132234233" }<br /> 
+Response: creation successful: 5132234233 (details will be saved into database)<br /> 
 
-#To retrieve a contact
-Request: Method:GET, URI::http://localhost:8080/contact/5132234233
-Response: { "firstName": "john","lastName": "doe","phoneNumber":"5132234233" }
+To retrieve a contact <br /> 
+Request: Method:GET, URI::http://localhost:8080/contact/5132234233 <br /> 
+Response: { "firstName": "john","lastName": "doe","phoneNumber":"5132234233" } <br /> 
 
 #### Screenshot
 ![Screenshot software](https://github.com/ramidi45/Spring-Boot-Rest-WebService-MySql/blob/master/post.PNG "rest webservice post")
