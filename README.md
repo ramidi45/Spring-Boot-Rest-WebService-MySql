@@ -1,6 +1,6 @@
-SpringBoot RESTful WebService  
+Spring Boot RESTful Web Service  
 ==============================
-**Software Name** is a software for things. Short description here.
+Demo application for Restful Web Serivce based on Spring Boot.
 
 #### Screenshot
 ![Screenshot software](https://github.com/ramidi45/Spring-Boot-Rest-WebService-MySql/blob/master/post.PNG "rest webservice post")
@@ -9,10 +9,8 @@ SpringBoot RESTful WebService
 * see [INSTRUCTIONS](https://github.com/username/sw-name/blob/master/INSTRUCTIONS.md) file
 
 ## Contact
-#### Developer/Company
-* Homepage: 
-* e-mail: 
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle "twitterhandle on twitter")
+* e-mail: ramiditarunreddy@hotmail.com
+* Twitter: [@twitterhandle](https://twitter.com/ImTarun45 "ImTarun45 on twitter")
 * other communication/social media
 
 
